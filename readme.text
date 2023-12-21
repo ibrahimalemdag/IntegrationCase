@@ -1,0 +1,9 @@
+After the SaveRequestAcceptedIntegrationEvent event is published, 
+the event can be captured by all currently active listeners. 
+This means that the recording can be made by another server. 
+This problem can be overcome by making a broker type topic.
+
+Another weakness is that direct registration is not possible. 
+Orders can only be placed for the registration process. 
+This may also extend the recording time. 
+This time will increase even more in cases where rabbit tails are dense.

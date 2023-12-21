@@ -8,4 +8,11 @@
     <LangVersion>11</LangVersion>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="EventBus.EventBusRabbitMQ" Version="1.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
 </Project>
